@@ -1,7 +1,7 @@
 import torch
 import os
-from dataset import *
-from model import *
+from linearRegression.dataset import TrainDataset
+from linearRegression.model import LinearRegression
 from torch.utils.data import DataLoader
 import torch.nn as nn
 import numpy as np
