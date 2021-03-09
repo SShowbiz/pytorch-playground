@@ -1,0 +1,5 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/Users/covy/opt/anaconda3/envs/pytorch/bin/python",
+  "terminal.integrated.shellArgs.windows": null,
+}
