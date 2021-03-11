@@ -24,7 +24,7 @@ def makeDataset(parameterList, numData):
 class TrainDataset(Dataset):
     def __init__(self):
         (xData, yData) = makeDataset([1, 7, 8, 10], 100)
-        print(xData, yData)
+        # print(xData, yData)
         self.x = xData
         self.y = yData
 
