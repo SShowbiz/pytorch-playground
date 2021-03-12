@@ -16,7 +16,7 @@ def makeDataset(parameterList, numData):
     size = len(parameterList)
     xData = [[randint(1, 100) for j in range(size-1)]
              for i in range(numData)]
-    yData = [[(lambda x: 1 if x > 50 else 0)(innerProduct(randomData, parameterList[:size-1]) + parameterList[size-1])]
+    yData = [[(lambda x: 1 if x > 300 else 0)(innerProduct(randomData, parameterList[:size-1]) + parameterList[size-1])]
              for randomData in xData]
     return (xData, yData)
 
